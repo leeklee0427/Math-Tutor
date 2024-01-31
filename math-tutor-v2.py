@@ -2,19 +2,17 @@
 Author: Bill LI
 File: math-tutor-v2.py
 Created: 01/07/2024
-Description: Not uploading duplicate knowledge files; users can input questions iteratively
+Description: Allows users to input questions one at a time, preventing uploading duplicated knowledge files.
 """
 
 from openai import OpenAI
 import time
-
 
 assistant_id = ""
 api_key = ""
 
 # Intialize an Client
 client = OpenAI(api_key=api_key)
-
 
 def initialize():
     # Upload knowledge file

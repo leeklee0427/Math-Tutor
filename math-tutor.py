@@ -2,6 +2,7 @@
 Author: Bill LI
 File: math-tutor.py
 Created: 01/02/2024
+Description: Answers a single hardcoded question by calling the Assistant API through the command line.
 """
 
 from openai import OpenAI
